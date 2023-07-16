@@ -31,7 +31,7 @@ public class Login extends javax.swing.JFrame {
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
                 try {
-                    BufferedImage image = ImageIO.read(new File("src/tiket/kereta.jpg")); // Path to your background image file
+                    BufferedImage image = ImageIO.read(new File("src/tiket/kreta.jpg")); // Path to your background image file
                     g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
                 } catch (IOException ex) {
                     ex.printStackTrace();
